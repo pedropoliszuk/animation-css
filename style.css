@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: changeColor 4s infinite linear;
+}
+
+@keyframes changeColor {
+    0%{background: red;}
+    20%{background: yellow;}
+    50%{background: cyan;}
+    70%{background: blue;}
+    100%{background: red;}
+}
+
+h1 {
+    color: aliceblue;
+    animation: font-size 4s infinite alternate;
+}
+
+@keyframes font-size {
+    from{font-size: 100%;}
+    to{font-size: 200%;}
+}
